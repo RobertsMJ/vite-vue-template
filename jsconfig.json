@@ -1,20 +1,15 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "@/*": [
-                "./src/*"
-            ]
-        },
-        "module": "ES6",
-        "moduleResolution": "node",
-        "target": "ES6",
-        "sourceMap": true,
-        "allowJs": true,
-        "jsx": "preserve"
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
     },
-    "exclude": [
-        "node_modules",
-        "dist"
-    ]
+    "module": "ES6",
+    "moduleResolution": "node",
+    "target": "ES6",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules", "dist"]
 }
