@@ -1,9 +1,9 @@
 import HelloWorld from '@/components/HelloWorld.vue';
-import { describe, expect, it } from 'vitest';
 import { mount } from '@vue/test-utils';
+import { describe, expect, test } from 'vitest';
 
 describe('HelloWorld', () => {
-  it('renders the msg prop', () => {
+  test('renders the msg prop', () => {
     // Arrange
     const msg = 'foo';
 
