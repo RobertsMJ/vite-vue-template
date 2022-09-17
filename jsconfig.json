@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     },
-    "module": "ES6",
-    "moduleResolution": "node",
-    "target": "ES6",
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
 }
